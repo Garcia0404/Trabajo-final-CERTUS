@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+    
+}
+
+
+footer {
+    background: #000b76;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}

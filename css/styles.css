@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+    
+}
+
+#navbar a, button{
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+#navbar a{
+    color:#3f3f3f;
+}
+
+
+.carousel-inner {
+    max-height:35rem !important;
+}
+
+#img-equipo{
+    max-height:30rem !important;
+    width:50%;
+}
+
+
+#blog {
+    margin-top:50px;
+    background-color: #f3f3f3;
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 200px; 
+}
+
+#articulos img {
+    max-height: 160px;
+}
+#articulos h5 {
+    cursor: pointer;
+    
+    &:hover{
+        color: black !important;
+    }
+}
+#articulos p {
+    cursor: pointer;
+}
+
+.wrapper-blog {
+    width:70%;
+    padding-top:150px;
+}
+
+
+#seccion-contacto{
+    background-color: #000b76;
+    min-height:480px;
+    position:relative;
+    
+}
+
+#contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
+
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+
+footer {
+    background: #000b76;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
